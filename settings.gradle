@@ -1,17 +1,19 @@
 pluginManagement {
     repositories {
+        maven { url 'https://mirrors.aliyun.com/android/googlesource.com/' }
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url 'https://mirrors.aliyun.com/android/googlesource.com/' }
+        
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://mirrors.aliyun.com/android/googlesource.com/' }
         google()
         mavenCentral()
-        maven { url 'https://mirrors.aliyun.com/android/googlesource.com/' }
+        
     }
 }
 rootProject.name = "央视浏览器"
